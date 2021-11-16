@@ -1,0 +1,6 @@
+# action.yml
+name: 'Twisto deploy checker'
+description: 'Check if PR can be deployed'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
